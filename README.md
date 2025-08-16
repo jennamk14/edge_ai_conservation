@@ -78,6 +78,7 @@ This project prioritizes:
 
 #### Drones
 **Building of an edge-enabled drone network ecosystem for bird species identification** — *Ecological Informatics* 68:101540, 2022. *Das, N., et al.* [Paper](https://ouci.dntb.gov.ua/)
+
 **WildWing: An open‑source, autonomous and affordable UAS for animal behaviour video monitoring** [Project Page](https://imageomics.github.io/wildwing/) [Paper](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70018)
 
 #### Camera traps
@@ -89,7 +90,7 @@ This project prioritizes:
 
 **Real-time alerts from AI-enabled camera traps using the Iridium satellite network: A case-study in Gabon, Central Africa** — *Methods in Ecology and Evolution* 14(3):867–874, 2023. *Whytock, R. C., et al.* [Paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14036)
 
-**Reliable and efficient integration of AI into camera traps for smart wildlife monitoring (with on-device continual learning)** — *Ecological Informatics* 83:102815, 2024. *Velasco‑Montero, D., Fernández‑Berni, J., Carmona‑Galán, R., Sanglas, A., & Palomares, F.* [Paper](https://www.sciencedirect.com/science/article/pii/S1574954124003571) [WILDLABS](https://wildlabs.net)
+**Reliable and efficient integration of AI into camera traps for smart wildlife monitoring (with on-device continual learning)** — *Ecological Informatics* 83:102815, 2024. *Velasco‑Montero, D., Fernández‑Berni, J., Carmona‑Galán, R., Sanglas, A., & Palomares, F.* [Paper](https://www.sciencedirect.com/science/article/pii/S1574954124003571) 
 
 **Towards a standardized framework for AI-assisted, image-based monitoring of nocturnal insects** — *Philosophical Transactions of the Royal Society B* 379:20230108, 2024. *Roy, D. B., Alison, J., August, T. A., et al.* [Paper](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0108)
 
@@ -179,7 +180,11 @@ We’re compiling durable, reusable guidance: UAV & wildlife guidelines, acousti
 
 ---
 
-## Case studies & deployments
+## Case studies & deployments - help wanted
+
+| Project Name | Location | Goals | Sensors | Edge Stack | Models | Metrics | Lessons Learned | Links/Code |
+| ------------ | -------- | ----- | ------- | ---------- | ------ | ------- | --------------- | ---------- |
+| SmartWilds | Ohio, USA | Animal land use patterns, species ID | Smart camera traps, SongMeters, Drones, GPS | GPU Laptop | YOLO, Megadetector, WildWing | SLOs of edge workloads (latency, requests/sec); Coverage | In progress | [Project Page](https://imageomics.github.io/naturelab/) |
 
 Short, actionable write-ups:
 
@@ -206,8 +211,6 @@ We welcome issues and PRs for:
 2. For lists, follow alphabetical order within subsections.
 3. Prefer **official sources** and **open licenses**; add a one-line description and a short justification (why useful for edge deployment).
 4. When adding datasets, confirm license/usage terms and include citation.
-
-We use **awesome-lint** and a link checker in CI; see `.github/workflows/` for details.
 
 ---
 

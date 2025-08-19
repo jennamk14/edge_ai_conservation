@@ -60,15 +60,13 @@ This project prioritizes:
 ## Resources
 
 ### Edge Computing for Conservation Projects
-
-### Edge Computing for Conservation Projects
 | Project                          | What it is                                         | Links                                                                                                                                                                                |
 | -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Wild Edge (WildLabs Group)       | Community for edge AI in conservation             | [wildlabs.net](https://wildlabs.net)                                                                                                                                               |
 | Microsoft Project SPARROW        | Solar-Powered Acoustic and Remote Recording Observation Watch; Biodiversity edge‑AI initiative/platform; Solar-powered sensors collect biodiversity data (camera traps, acoustics), processed on low-energy edge GPUs with PyTorch wildlife AI models, information transferred to cloud via low-Earth orbit satellites | [Announcement](https://www.microsoft.com/en-us/research/project/project-sparrow/)                                                                                                   |
 | SmartWilds                       | Edge AI for animal land use patterns, species ID; multi-modal sensors including camera traps, bioacoustics, drones, and GPS trackers | [Project Page](https://smartwilds.org)                                                                                                                                             |
 | Robinson Crusoe Island Project   | Delivering edge computing on Robinson Crusoe Island (Chile) | [Article](https://example.com)                                                                                                                                                     |
-                                                          |           
+
 
 ### Cyberinfrastructure for Edge AI
 

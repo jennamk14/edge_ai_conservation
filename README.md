@@ -70,6 +70,7 @@ This project prioritizes:
 | Seeed Studio LoRaWAN Dev Kit     | LoRaWAN gateway/dev kit for LPWAN edge sensing     | [Product](https://www.seeedstudio.com/Seeed-Studio-LoRaWAN-Dev-Kit-p-5370.html)                                                                                                      |
 | Edge Impulse                     | Edge ML platform (data→model→deploy; MCUs & Linux) | [edgeimpulse.com](https://edgeimpulse.com/)                                                                                                                                          |
 | Conservation X Labs              | Conservation tech and open innovation ecosystem    | [conservationxlabs.com](https://conservationxlabs.com/)   |
+| Animl                            | Camera trap platform - see 'Lessons learned from deploying and managing wireless camera trap networks in remote environments' for edge AI specific guidelines                     | [animl.camera](https://guides.animl.camera/) [YouTube](https://youtu.be/oF-8bnVymv8)    [Report](https://bioone.org/journals/western-north-american-naturalist/volume-85/issue-2/064.085.0220/Real-Time-Island-Biosecurity-Surveillance--Evaluating-a-Wireless-Camera/10.3398/064.085.0220.short)                                                                                                                                     |       
 
 #### Smart Sensors & Platforms
 | Sensor Type                      | What it is                                         | Links                                                                                                                                                                                |
@@ -77,14 +78,16 @@ This project prioritizes:
 | BirdWeather                      | AI powered bioacoustics platform                   | https://www.birdweather.com/                                                                                                                                                         |
 | WildWing                         | Open-source drone for animal behavior monitoring | [WildWing Project](https://imageomics.github.io/wildwing/)                                                                                                                                |
 | Sentinel Hub                    | Smart camera trap plaform, democratizing AI for wildlife and disease monitoring             | [Sentinel Project](https://sentinel.conservationxlabs.com/)                                                                                                     |
-| Smart Camera Trap | AI Edge Compute Based Wildlife Detection | [Discussion Post](https://wildlabs.net/discussion/mini-ai-wildlife-monitor) [YouTube Video](https://www.youtube.com/watch?v=rA1S0aAPw5U&embeds_referring_euri=https%3A%2F%2Fwildlabs.net%2F)
+| Mini AI Wildlife Monitor with Raspberry Pi AI Camera| AI edge compute based wildlife detection | [Discussion Post](https://wildlabs.net/discussion/mini-ai-wildlife-monitor) [YouTube Video](https://www.youtube.com/watch?v=rA1S0aAPw5U&embeds_referring_euri=https%3A%2F%2Fwildlabs.net%2F)
 
 #### AI Models for Edge
 | Model                            | What it is                                         | Links                                                                                                                                                                                |
 | -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | BirdNET-Pi                       | A realtime acoustic bird classification system for the Raspberry Pi 5, 4B 3B+ 0W2 and more | https://www.birdweather.com/birdnetpi |
 | YOLO                             | Small, real‑time models for detection and classification | https://docs.ultralytics.com/ |
-| MobileSAM                        | Segment Anything Model optimized for edge | https://github.com/ChaoningZhang/MobileSAM |        
+| MobileSAM                        | Segment Anything Model optimized for edge | https://github.com/ChaoningZhang/MobileSAM |    
+| WL-YOLO                          | Designed for lightweight wildlife for real-time detection in complex forest environments    | [Paper](https://doi.org/10.3390/rs16081350) |
+
 
 
 
@@ -104,7 +107,7 @@ ____
 
 **Edge computing in wildlife behavior and ecology** — *Trends in Ecology & Evolution* 39(2):128–130, 2024. *Yu, H., et al.* [Paper](https://pubmed.ncbi.nlm.nih.gov)
 
-**Characterizing and Modeling AI-Driven Animal Ecology Studies at the Edge** — 2024 IEEE/ACM Symposium on Edge Computing (SEC), Rome, Italy. *J. Kline, A. O’Quinn, T. Berger‑Wolf, C. Stewart*. DOI: 10.1109/SEC62691.2024.00025. [Paper](https://ieeexplore.ieee.org/document/10818207/)
+**Characterizing and Modeling AI-Driven Animal Ecology Studies at the Edge** — 2024 IEEE/ACM Symposium on Edge Computing (SEC), Rome, Italy. *J. Kline, A. O’Quinn, T. Berger‑Wolf, C. Stewart*. [Paper](https://ieeexplore.ieee.org/document/10818207/)
 
 **Environment-Aware Dynamic Pruning for Pipelined Edge Inference** — arXiv preprint (2025). O’Quinn, Snedeker, Zhang, Kline. [Paper](https://arxiv.org/abs/2503.03070)
 
@@ -134,20 +137,21 @@ ____
 ____
 **AI-Driven Real-Time Monitoring of Ground-Nesting Birds: A Case Study on Curlew Detection Using YOLOv10** — arXiv preprint arXiv:2411.15263. *Chalmers, C., Fergus, P., Wich, S., Longmore, S. N., Walsh, N. D., Oliver, L., Warrington, J., Quinlan, J., & Appleby, K.* [Paper](http://arxiv.org/abs/2411.15263)
 
-**An IoT System Using Deep Learning to Classify Camera Trap Images on the Edge** — *Computers* 11(1):13, 2022. *Zualkernan, I., Dhou, S., Judas, J., Sajun, A. R., Gomez, B. R., & Alhaj Hussain, L.* [Paper](https://www.mdpi.com/2073-431X/11/1/13)
+**An IoT System Using Deep Learning to Classify Camera Trap Images on the Edge** — *Computers*, 2022. *Zualkernan, I., Dhou, S., Judas, J., Sajun, A. R., Gomez, B. R., & Alhaj Hussain, L.* [Paper](https://www.mdpi.com/2073-431X/11/1/13)
 
-**Energy-Efficient Audio Processing at the Edge for Biologging Applications** — *Journal of Low Power Electronics and Applications* 13(2):30, 2023. *Miquel, J., Latorre, L., & Chamaillé‑Jammes, S.* [Paper](https://www.mdpi.com/2079-9268/13/2/30)
+**Energy-Efficient Audio Processing at the Edge for Biologging Applications** — *Journal of Low Power Electronics and Applications*, 2023. *Miquel, J., Latorre, L., & Chamaillé‑Jammes, S.* [Paper](https://www.mdpi.com/2079-9268/13/2/30)
 
-**Real-time alerts from AI-enabled camera traps using the Iridium satellite network: A case-study in Gabon, Central Africa** — *Methods in Ecology and Evolution* 14(3):867–874, 2023. *Whytock, R. C., et al.* [Paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14036)
+**Real-time alerts from AI-enabled camera traps using the Iridium satellite network: A case-study in Gabon, Central Africa** — *Methods in Ecology and Evolution*, 2023. *Whytock, R. C., et al.* [Paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14036)
 
-**Reliable and efficient integration of AI into camera traps for smart wildlife monitoring (with on-device continual learning)** — *Ecological Informatics* 83:102815, 2024. *Velasco‑Montero, D., Fernández‑Berni, J., Carmona‑Galán, R., Sanglas, A., & Palomares, F.* [Paper](https://www.sciencedirect.com/science/article/pii/S1574954124003571) 
+**Reliable and efficient integration of AI into camera traps for smart wildlife monitoring (with on-device continual learning)** — *Ecological Informatics*, 2024. *Velasco‑Montero, D., Fernández‑Berni, J., Carmona‑Galán, R., Sanglas, A., & Palomares, F.* [Paper](https://www.sciencedirect.com/science/article/pii/S1574954124003571) 
 
-**Towards a standardized framework for AI-assisted, image-based monitoring of nocturnal insects** — *Philosophical Transactions of the Royal Society B* 379:20230108, 2024. *Roy, D. B., Alison, J., August, T. A., et al.* [Paper](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0108)
+**Towards a standardized framework for AI-assisted, image-based monitoring of nocturnal insects** — *Philosophical Transactions of the Royal Society B* , 2024. *Roy, D. B., Alison, J., August, T. A., et al.* [Paper](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0108)
 
 **Towards scalable insect monitoring: Ultra-lightweight CNNs as on-device triggers for insect camera traps** — *Methods in Ecology and Evolution*, 2025. *Gardiner, R. J., Rowlands, S., & Simmons, B. I.* [Paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.70098)
 
 **Assessment of technological developments for camera-traps: a wireless network and advanced image recognition** — *Wildlife Society Bulletin*, 2022. *Meek, P., et al.* [Paper](https://wildlife.onlinelibrary.wiley.com)
 
+**A computer vision enhanced IoT system for koala monitoring and recognition** - *Internet of Things*, 2025. *Trevathan, J., Tan, W.L., Xing, W., Holzner, D., Kerlin, D., Zhou, J. and Castley, G.,* [Paper](https://doi.org/10.1016/j.iot.2024.101474)
 
 ## Contributing
 

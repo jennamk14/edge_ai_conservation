@@ -60,7 +60,16 @@ This project prioritizes:
 
 ### Cyberinfrastructure for Edge AI
 
-#### Edge platforms & Devices
+### Projects
+| Project                          | What it is                                         | Links                                                                                                                                                                                |
+| -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Wild Edge (WildLabs Group)       | Community for edge AI in conservation              | [wildlabs.net](https://wildlabs.net/)                                                                                                                                                 |
+| Microsoft Project SPARROW        | Solar-Powered Acoustic and Remote Recording Observation Watch; Biodiversity edge‑AI initiative/platform; Solar-powered sensors collect biodiversity data (camera traps, acoustics), processed on low-energy edge GPUs with PyTorch wildlife AI models, information transferred to cloud via low-Earth orbit satellites         | [Announcement](https://blogs.microsoft.com/on-the-issues/2024/12/18/announcing-sparrow-a-breakthrough-ai-tool-to-measure-and-protect-earths-biodiversity-in-the-most-remote-places/) |                                                                                                                                       |
+| SmartWilds                       | Edge AI for animal land use patterns, species ID; multi-modal sensors including camera traps, bioacoustics, drones, and GPS trackers | [Project Page](https://imageomics.github.io/naturelab/)                                                                                                                                |
+| Robinson Crusoe Island Project                                 | Delivering edge computing on Robinson Crusoe Island (Chile) | [Article](https://wildlabs.net/article/video-delivering-edge-computing-robinson-crusoe-island-chile-preserve-biodiversity)                                                                 |           
+
+
+#### Edge Platforms and Projects
 
 | Platform                         | What it is                                         | Links                                                                                                                                                                                |
 | -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -68,17 +77,20 @@ This project prioritizes:
 | Raspberry Pi                     | Single-board computers for far‑edge deployments    | [raspberrypi.com](https://www.raspberrypi.com/)                                                                                                                                      |
 | Google Coral                     | Edge TPU accelerators and dev boards               | [coral.ai](https://coral.ai/), [Docs](https://coral.ai/docs/)                                                                                                                        |
 | Seeed Studio LoRaWAN Dev Kit     | LoRaWAN gateway/dev kit for LPWAN edge sensing     | [Product](https://www.seeedstudio.com/Seeed-Studio-LoRaWAN-Dev-Kit-p-5370.html)                                                                                                      |
-| Edge Impulse                     | Edge ML platform (data→model→deploy; MCUs & Linux) | [edgeimpulse.com](https://edgeimpulse.com/)                                                                                                                                          |
-| Conservation X Labs              | Conservation tech and open innovation ecosystem    | [conservationxlabs.com](https://conservationxlabs.com/)   |
-| Animl                            | Camera trap platform - see 'Lessons learned from deploying and managing wireless camera trap networks in remote environments' for edge AI specific guidelines                     | [animl.camera](https://guides.animl.camera/) [YouTube](https://youtu.be/oF-8bnVymv8)    [Report](https://bioone.org/journals/western-north-american-naturalist/volume-85/issue-2/064.085.0220/Real-Time-Island-Biosecurity-Surveillance--Evaluating-a-Wireless-Camera/10.3398/064.085.0220.short)                                                                                                                                     |       
+| Edge Impulse                     | Edge ML platform company, specializing in data→model→deploy; focused on industry applications but usable for conservation, see [Blog on Adaptive Camera Trap with GPT-4o](https://www.edgeimpulse.com/blog/adaptive-camera-trap-gpt-4o/) | [edgeimpulse.com](https://edgeimpulse.com/) -- [Intro to Edge AI Course](https://docs.edgeimpulse.com/knowledge/courses/edge-ai-fundamentals)                                                                                                                                         |
+| ICICLE AI Institue              | US NSF funded AI institute for Intelligent Cyberinfrastructure with Computational Learning in the Environment (ICICLE); focus on democratizing AI for digital agriculture and animal ecology applications      | [ICICLE](https://icicle.osu.edu/) |
+|SAGE Grande Testbed | The Sage Grande Testbed (SGT) is building a cutting-edge artificial intelligence (AI) cyberinfrastructure to support advanced AI research. Funded by the NSF Office of Advanced Cyberinfrastructure, provides access to AI-enabled edge computing resources and software tools integrated with sensors—including infrared and RGB cameras, microphones, and a variety of atmospheric and air quality instruments—deployed across natural, urban, and wildfire-prone environments, with networking capabilities that support real-time hazard reporting. | [SAGE](https://sagecontinuum.org/) |
+
+
 
 #### Smart Sensors & Platforms
 | Sensor Type                      | What it is                                         | Links                                                                                                                                                                                |
 | -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | BirdWeather                      | AI powered bioacoustics platform                   | https://www.birdweather.com/                                                                                                                                                         |
-| WildWing                         | Open-source drone for animal behavior monitoring | [WildWing Project](https://imageomics.github.io/wildwing/)                                                                                                                                |
-| Sentinel Hub                    | Smart camera trap plaform, democratizing AI for wildlife and disease monitoring             | [Sentinel Project](https://sentinel.conservationxlabs.com/)                                                                                                     |
-| Mini AI Wildlife Monitor with Raspberry Pi AI Camera| AI edge compute based wildlife detection | [Discussion Post](https://wildlabs.net/discussion/mini-ai-wildlife-monitor) [YouTube Video](https://www.youtube.com/watch?v=rA1S0aAPw5U&embeds_referring_euri=https%3A%2F%2Fwildlabs.net%2F)
+| WildWing                         | DIY open-source drone; developed for autonomous animal behavior monitoring missions | [WildWing Project](https://imageomics.github.io/wildwing/)                                                                                                                                |
+| Sentinel Hub                    | Smart camera trap plaform from non-for profit ConservationXLabs; aimed at democratizing AI for wildlife and disease monitoring             | [Sentinel Project](https://sentinel.conservationxlabs.com/)                                                                                                     |
+| Mini AI Wildlife Monitor with Raspberry Pi AI Camera| DIY AI edge compute based wildlife detection with YouTube tutorial | [Discussion Post](https://wildlabs.net/discussion/mini-ai-wildlife-monitor) -- [YouTube Video](https://www.youtube.com/watch?v=rA1S0aAPw5U&embeds_referring_euri=https%3A%2F%2Fwildlabs.net%2F)
+| Animl                            | Camera trap platform - see 'Lessons learned from deploying and managing wireless camera trap networks in remote environments' for edge AI specific guidelines                     | [animl.camera](https://guides.animl.camera/) -- [YouTube](https://youtu.be/oF-8bnVymv8) --   [Report](https://bioone.org/journals/western-north-american-naturalist/volume-85/issue-2/064.085.0220/Real-Time-Island-Biosecurity-Surveillance--Evaluating-a-Wireless-Camera/10.3398/064.085.0220.short)   
 
 #### AI Models for Edge
 | Model                            | What it is                                         | Links                                                                                                                                                                                |
@@ -91,18 +103,10 @@ This project prioritizes:
 
 
 
-### Projects
-| Project                          | What it is                                         | Links                                                                                                                                                                                |
-| -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Wild Edge (WildLabs Group)       | Community for edge AI in conservation              | [wildlabs.net](https://wildlabs.net/)                                                                                                                                                 |
-| Microsoft Project SPARROW        | Biodiversity edge‑AI initiative/platform           | [Announcement](https://blogs.microsoft.com/on-the-issues/2024/12/18/announcing-sparrow-a-breakthrough-ai-tool-to-measure-and-protect-earths-biodiversity-in-the-most-remote-places/) |                                                                                                                                       |
-| SmartWilds                       | Edge AI for animal land use patterns, species ID | [Project Page](https://imageomics.github.io/naturelab/)                                                                                                                                |
-| Robinson Crusoe Island Project                                 | Delivering edge computing on Robinson Crusoe Island (Chile) | [Article](https://wildlabs.net/article/video-delivering-edge-computing-robinson-crusoe-island-chile-preserve-biodiversity)                                                                 |           
-
 
 ### Papers
 
-#### Overviews
+#### General-use tools and Overviews
 ____
 
 **Edge computing in wildlife behavior and ecology** — *Trends in Ecology & Evolution* 39(2):128–130, 2024. *Yu, H., et al.* [Paper](https://doi.org/10.1016/j.tree.2023.11.014)
@@ -112,6 +116,9 @@ ____
 **Environment-Aware Dynamic Pruning for Pipelined Edge Inference** — arXiv preprint (2025). O’Quinn, Snedeker, Zhang, Kline. [Paper](https://arxiv.org/abs/2503.03070)
 
 **ML Field Planner: Analyzing and Optimizing ML Pipelines for Field Research** — PEARC ’25: Practice and Experience in Advanced Research Computing, 2025. *Stubbs, J., Balasubramaniam, S., Khuvis, S., Withana, S., Vallabhajosyula, M. S., Cardone, R., Garcia, C., Freeman, N., Guzman, C., Plale, B., Ramnath, R., & Berger-Wolf, T.* [Paper](https://doi.org/10.1145/3708035.3736013)
+
+**Broad-scale applications of the Raspberry Pi: A review and guide for biologists** — Methods in Ecology and Evolution, 2021. *Jolles, J. W.* [Paper](https://doi.org/10.1111/2041-210X.13652)
+
 
 #### Acoustics
 ____

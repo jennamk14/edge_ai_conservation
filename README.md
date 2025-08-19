@@ -1,6 +1,6 @@
-# Edge AI for Conservation
+# Edge Computing for Conservation
 
-*A curated, community-maintained hub for **edge AI** methods, tools, datasets, and deployments in conservation.*
+*A curated, community-maintained hub for **edge computing** and **edge AI** methods, tools, datasets, and deployments in conservation.*
 
 This survey is intended to consolidate projects and resources for deploying edge AI for conservation. This page is maintained by [Jenna Kline](https://jennamk14.github.io/). Contributions are welcome! Please submit additions or corrections as Github pull requests.
 

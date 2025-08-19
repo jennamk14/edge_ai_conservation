@@ -10,11 +10,12 @@ This survey is intended to consolidate projects and resources for deploying edge
 * [Why this repo?](#why-this-repo)
 * [Scope & taxonomy](#scope--taxonomy)
 * [Resources](#resources)
+  * [Edge Computing for Conservation Projects](#edge-computing-for-conservation-projects)
   * [Cyberinfrastructure for Edge AI](#cyberinfrastructure-for-edge-ai)
-    * [Edge platforms & devices](#edge-platforms--devices)
-    * [Smart Sensors/Platforms](#smart-sensorsplatforms)
+      * [Edge Platforms](#edge-platforms)
+    * [Smart Sensors](#smart-sensors)
     * [AI Models for Edge](#ai-models-for-edge)
-  * [Projects](#projects)
+
   * [Papers](#papers)
     * [What is edge AI?](#what-is-edge-ai)
     * [Acoustics](#acoustics)
@@ -79,8 +80,8 @@ This project prioritizes:
 | Google Coral                     | Edge TPU accelerators and dev boards               | [coral.ai](https://coral.ai/), [Docs](https://coral.ai/docs/)                                                                                                                        |
 | Seeed Studio LoRaWAN Dev Kit     | LoRaWAN gateway/dev kit for LPWAN edge sensing     | [Product](https://www.seeedstudio.com/Seeed-Studio-LoRaWAN-Dev-Kit-p-5370.html)                                                                                                      |
 | Edge Impulse                     | Edge ML platform company, specializing in data→model→deploy; focused on industry applications but usable for conservation, see [Blog on Adaptive Camera Trap with GPT-4o](https://www.edgeimpulse.com/blog/adaptive-camera-trap-gpt-4o/) | [edgeimpulse.com](https://edgeimpulse.com/) -- [Intro to Edge AI Course](https://docs.edgeimpulse.com/knowledge/courses/edge-ai-fundamentals)                                                                                                                                         |
-| ICICLE AI Institue              | US NSF funded AI institute for Intelligent Cyberinfrastructure with Computational Learning in the Environment (ICICLE); focus on democratizing AI for digital agriculture and animal ecology applications      | [ICICLE](https://icicle.osu.edu/) |
-|SAGE Grande Testbed | The Sage Grande Testbed (SGT) is building a cutting-edge artificial intelligence (AI) cyberinfrastructure to support advanced AI research. Funded by the NSF Office of Advanced Cyberinfrastructure, provides access to AI-enabled edge computing resources and software tools integrated with sensors—including infrared and RGB cameras, microphones, and a variety of atmospheric and air quality instruments—deployed across natural, urban, and wildfire-prone environments, with networking capabilities that support real-time hazard reporting. | [SAGE](https://sagecontinuum.org/) |
+| ICICLE AI Institue              | US NSF funded AI institute for Intelligent Cyberinfrastructure with Computational Learning in the Environment (ICICLE); focus on democratizing AI for digital agriculture and animal ecology applications      | [ICICLE Website](https://icicle.osu.edu/) -- [ICICLE GitHub Repo](https://github.com/ICICLE-ai)|
+|SAGE Grande Testbed | The Sage Grande Testbed (SGT) is building a cutting-edge artificial intelligence (AI) cyberinfrastructure to support advanced AI research. Funded by the NSF Office of Advanced Cyberinfrastructure, provides access to AI-enabled edge computing resources and software tools integrated with sensors—including infrared and RGB cameras, microphones, and a variety of atmospheric and air quality instruments—deployed across natural, urban, and wildfire-prone environments, with networking capabilities that support real-time hazard reporting. | [SAGE Website](https://sagecontinuum.org/) |
 
 
 
@@ -90,7 +91,7 @@ This project prioritizes:
 | BirdWeather                      | AI powered bioacoustics platform                   | https://www.birdweather.com/                                                                                                                                                         |
 | WildWing                         | DIY open-source drone; developed for autonomous animal behavior monitoring missions | [WildWing Project](https://imageomics.github.io/wildwing/)                                                                                                                                |
 | Sentinel Hub                    | Smart camera trap plaform from non-for profit ConservationXLabs; aimed at democratizing AI for wildlife and disease monitoring             | [Sentinel Project](https://sentinel.conservationxlabs.com/)                                                                                                     |
-| Mini AI Wildlife Monitor with Raspberry Pi AI Camera| DIY AI edge compute based wildlife detection with YouTube tutorial | [Discussion Post](https://wildlabs.net/discussion/mini-ai-wildlife-monitor) -- [YouTube Video](https://www.youtube.com/watch?v=rA1S0aAPw5U&embeds_referring_euri=https%3A%2F%2Fwildlabs.net%2F)
+| Mini AI Wildlife Monitor| DIY AI edge compute based wildlife detection with Raspberry Pi AI Camera | [Discussion post on WildLabs](https://wildlabs.net/discussion/mini-ai-wildlife-monitor) -- [YouTube Video](https://www.youtube.com/watch?v=rA1S0aAPw5U&embeds_referring_euri=https%3A%2F%2Fwildlabs.net%2F)
 | Animl                            | Camera trap platform - see 'Lessons learned from deploying and managing wireless camera trap networks in remote environments' for edge AI specific guidelines                     | [animl.camera](https://guides.animl.camera/) -- [YouTube](https://youtu.be/oF-8bnVymv8) --   [Report](https://bioone.org/journals/western-north-american-naturalist/volume-85/issue-2/064.085.0220/Real-Time-Island-Biosecurity-Surveillance--Evaluating-a-Wireless-Camera/10.3398/064.085.0220.short)   
 
 #### AI Models for Edge
@@ -112,7 +113,7 @@ ____
 
 **Edge computing in wildlife behavior and ecology** — *Trends in Ecology & Evolution* 39(2):128–130, 2024. *Yu, H., et al.* [Paper](https://doi.org/10.1016/j.tree.2023.11.014)
 
-**Characterizing and Modeling AI-Driven Animal Ecology Studies at the Edge** — 2024 IEEE/ACM Symposium on Edge Computing (SEC), Rome, Italy. *J. Kline, A. O’Quinn, T. Berger‑Wolf, C. Stewart*. [Paper](https://ieeexplore.ieee.org/document/10818207/)
+**Characterizing and Modeling AI-Driven Animal Ecology Studies at the Edge** — 2024 IEEE/ACM Symposium on Edge Computing (SEC), Rome, Italy. *J. Kline, A. O’Quinn, T. Berger‑Wolf, C. Stewart*. [Paper](https://ieeexplore.ieee.org/document/10818207/) -- [GitHub Repo](https://github.com/jennamk14/adae_model)
 
 **Environment-Aware Dynamic Pruning for Pipelined Edge Inference** — arXiv preprint (2025). O’Quinn, Snedeker, Zhang, Kline. [Paper](https://arxiv.org/abs/2503.03070)
 

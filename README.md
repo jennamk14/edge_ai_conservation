@@ -58,9 +58,7 @@ This project prioritizes:
 
 ## Resources
 
-### Cyberinfrastructure for Edge AI
-
-### Projects
+### Edge Computing for Conservation Projects
 | Project                          | What it is                                         | Links                                                                                                                                                                                |
 | -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Wild Edge (WildLabs Group)       | Community for edge AI in conservation              | [wildlabs.net](https://wildlabs.net/)                                                                                                                                                 |
@@ -68,8 +66,11 @@ This project prioritizes:
 | SmartWilds                       | Edge AI for animal land use patterns, species ID; multi-modal sensors including camera traps, bioacoustics, drones, and GPS trackers | [Project Page](https://imageomics.github.io/naturelab/)                                                                                                                                |
 | Robinson Crusoe Island Project                                 | Delivering edge computing on Robinson Crusoe Island (Chile) | [Article](https://wildlabs.net/article/video-delivering-edge-computing-robinson-crusoe-island-chile-preserve-biodiversity)                                                                 |           
 
+### Cyberinfrastructure for Edge AI
 
-#### Edge Platforms and Projects
+
+
+#### Edge Platforms 
 
 | Platform                         | What it is                                         | Links                                                                                                                                                                                |
 | -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -83,7 +84,7 @@ This project prioritizes:
 
 
 
-#### Smart Sensors & Platforms
+#### Smart Sensors 
 | Sensor Type                      | What it is                                         | Links                                                                                                                                                                                |
 | -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | BirdWeather                      | AI powered bioacoustics platform                   | https://www.birdweather.com/                                                                                                                                                         |

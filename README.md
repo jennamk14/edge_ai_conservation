@@ -61,7 +61,7 @@ This project prioritizes:
 
 ### Edge Computing for Conservation Projects
 **Wild Edge (WildLabs Group)**
-Community for edge AI in conservation [wildlabs.net](https://wildlabs.net)                            
+Community for edge AI in conservation [wildlabs.net](https://wildlabs.net/groups/edge-computing)                            
                                                                                                                    
 **Microsoft Project SPARROW** Solar-Powered Acoustic and Remote Recording Observation Watch; Biodiversity edge‑AI initiative/platform; Solar-powered sensors collect biodiversity data (camera traps, acoustics), processed on low-energy edge GPUs with PyTorch wildlife AI models, information transferred to cloud via low-Earth orbit satellites [Announcement](https://www.microsoft.com/en-us/research/project/project-sparrow/)    
                                                                                                

@@ -60,48 +60,56 @@ This project prioritizes:
 ## Resources
 
 ### Edge Computing for Conservation Projects
-| Project                          | What it is                                         | Links                                                                                                                                                                                |
-| -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Wild Edge (WildLabs Group)       | Community for edge AI in conservation             | [wildlabs.net](https://wildlabs.net)                                                                                                                                               |
-| Microsoft Project SPARROW        | Solar-Powered Acoustic and Remote Recording Observation Watch; Biodiversity edge‑AI initiative/platform; Solar-powered sensors collect biodiversity data (camera traps, acoustics), processed on low-energy edge GPUs with PyTorch wildlife AI models, information transferred to cloud via low-Earth orbit satellites | [Announcement](https://www.microsoft.com/en-us/research/project/project-sparrow/)                                                                                                   |
-| SmartWilds                       | Edge AI for animal land use patterns, species ID; multi-modal sensors including camera traps, bioacoustics, drones, and GPS trackers | [Project Page](https://smartwilds.org)                                                                                                                                             |
-| Robinson Crusoe Island Project   | Delivering edge computing on Robinson Crusoe Island (Chile) | [Article](https://example.com)                                                                                                                                                     |
+**Wild Edge (WildLabs Group)**
+Community for edge AI in conservation [wildlabs.net](https://wildlabs.net)                            
+                                                                                                                   
+**Microsoft Project SPARROW** Solar-Powered Acoustic and Remote Recording Observation Watch; Biodiversity edge‑AI initiative/platform; Solar-powered sensors collect biodiversity data (camera traps, acoustics), processed on low-energy edge GPUs with PyTorch wildlife AI models, information transferred to cloud via low-Earth orbit satellites [Announcement](https://www.microsoft.com/en-us/research/project/project-sparrow/)    
+                                                                                               
+**SmartWilds** Edge AI for animal land use patterns, species ID; multi-modal sensors including camera traps, bioacoustics, drones, and GPS trackers [Project Page](https://smartwilds.org)     
+                                                                                                                                        
+**Robinson Crusoe Island Project**  Delivering edge computing on Robinson Crusoe Island (Chile) [Article](https://www.islandconservation.org/video-david-will-on-how-technology-enhances-conservation-on-remote-islands/)                                                                                                                                                 
 
 
 ### Cyberinfrastructure for Edge AI
 
 
-
 #### Edge Platforms 
 
-| Platform                         | What it is                                         | Links                                                                                                                                                                                |
-| -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| NVIDIA Jetson (Nano / Orin Nano) | Embedded GPU modules for on-device AI              | [Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano), [Orin Nano](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit)                       |
-| Raspberry Pi                     | Single-board computers for far‑edge deployments    | [raspberrypi.com](https://www.raspberrypi.com/)                                                                                                                                      |
-| Google Coral                     | Edge TPU accelerators and dev boards               | [coral.ai](https://coral.ai/), [Docs](https://coral.ai/docs/)                                                                                                                        |
-| Seeed Studio LoRaWAN Dev Kit     | LoRaWAN gateway/dev kit for LPWAN edge sensing     | [Product](https://www.seeedstudio.com/Seeed-Studio-LoRaWAN-Dev-Kit-p-5370.html)                                                                                                      |
-| Edge Impulse                     | Edge ML platform company, specializing in data→model→deploy; focused on industry applications but usable for conservation, see [Blog on Adaptive Camera Trap with GPT-4o](https://www.edgeimpulse.com/blog/adaptive-camera-trap-gpt-4o/) | [edgeimpulse.com](https://edgeimpulse.com/) -- [Intro to Edge AI Course](https://docs.edgeimpulse.com/knowledge/courses/edge-ai-fundamentals)                                                                                                                                         |
-| ICICLE AI Institue              | US NSF funded AI institute for Intelligent Cyberinfrastructure with Computational Learning in the Environment (ICICLE); focus on democratizing AI for digital agriculture and animal ecology applications      | [ICICLE Website](https://icicle.osu.edu/) -- [ICICLE GitHub Repo](https://github.com/ICICLE-ai)|
-|SAGE Grande Testbed | The Sage Grande Testbed (SGT) is building a cutting-edge artificial intelligence (AI) cyberinfrastructure to support advanced AI research. Funded by the NSF Office of Advanced Cyberinfrastructure, provides access to AI-enabled edge computing resources and software tools integrated with sensors—including infrared and RGB cameras, microphones, and a variety of atmospheric and air quality instruments—deployed across natural, urban, and wildfire-prone environments, with networking capabilities that support real-time hazard reporting. | [SAGE Website](https://sagecontinuum.org/) |
+**NVIDIA Jetson (Nano / Orin Nano)** Embedded GPU modules for on-device AI [Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano), [Orin Nano](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit) 
+                      
+**Raspberry Pi**  Single-board computers for far‑edge deployments  [raspberrypi.com](https://www.raspberrypi.com/)
+                                                                                                                                      
+**Google Coral** Edge TPU accelerators and dev boards [coral.ai](https://coral.ai/), [Docs](https://coral.ai/docs/)  
+                                                                                                                    
+**Seeed Studio LoRaWAN Dev Kit**  LoRaWAN gateway/dev kit for LPWAN edge sensing [Product](https://www.seeedstudio.com/Seeed-Studio-LoRaWAN-Dev-Kit-p-5370.html)     
+                                                                                                 
+**Edge Impulse**  Edge ML platform company, specializing in data→model→deploy; focused on industry applications but usable for conservation, see [Blog on Adaptive Camera Trap with GPT-4o](https://www.edgeimpulse.com/blog/adaptive-camera-trap-gpt-4o/) [edgeimpulse.com](https://edgeimpulse.com/) -- [Intro to Edge AI Course](https://docs.edgeimpulse.com/knowledge/courses/edge-ai-fundamentals)     
+                                                                                                                                    
+**ICICLE AI Institute**  US NSF funded AI institute for Intelligent Cyberinfrastructure with Computational Learning in the Environment (ICICLE); focus on democratizing AI for digital agriculture and animal ecology applications  [ICICLE Website](https://icicle.osu.edu/) -- [ICICLE GitHub Repo](https://github.com/ICICLE-ai)
+
+**SAGE Grande Testbed** The Sage Grande Testbed (SGT) is building a cutting-edge artificial intelligence (AI) cyberinfrastructure to support advanced AI research. Funded by the NSF Office of Advanced Cyberinfrastructure, provides access to AI-enabled edge computing resources and software tools integrated with sensors—including infrared and RGB cameras, microphones, and a variety of atmospheric and air quality instruments—deployed across natural, urban, and wildfire-prone environments, with networking capabilities that support real-time hazard reporting. [SAGE Website](https://sagecontinuum.org/)
 
 
 
 #### Smart Sensors 
-| Sensor Type                      | What it is                                         | Links                                                                                                                                                                                |
-| -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| BirdWeather                      | AI powered bioacoustics platform                   | https://www.birdweather.com/                                                                                                                                                         |
-| WildWing                         | DIY open-source drone; developed for autonomous animal behavior monitoring missions | [WildWing Project](https://imageomics.github.io/wildwing/)                                                                                                                                |
-| Sentinel Hub                    | Smart camera trap plaform from non-for profit ConservationXLabs; aimed at democratizing AI for wildlife and disease monitoring             | [Sentinel Project](https://sentinel.conservationxlabs.com/)                                                                                                     |
-| Mini AI Wildlife Monitor| DIY AI edge compute based wildlife detection with Raspberry Pi AI Camera | [Discussion post on WildLabs](https://wildlabs.net/discussion/mini-ai-wildlife-monitor) -- [YouTube Video](https://www.youtube.com/watch?v=rA1S0aAPw5U&embeds_referring_euri=https%3A%2F%2Fwildlabs.net%2F)
-| Animl                            | Camera trap platform - see 'Lessons learned from deploying and managing wireless camera trap networks in remote environments' for edge AI specific guidelines                     | [animl.camera](https://guides.animl.camera/) -- [YouTube](https://youtu.be/oF-8bnVymv8) --   [Report](https://bioone.org/journals/western-north-american-naturalist/volume-85/issue-2/064.085.0220/Real-Time-Island-Biosecurity-Surveillance--Evaluating-a-Wireless-Camera/10.3398/064.085.0220.short)   
+**BirdWeather** AI powered bioacoustics platform  https://www.birdweather.com/  
+
+**WildWing**  DIY open-source drone; developed for autonomous animal behavior monitoring missions. [WildWing Project](https://imageomics.github.io/wildwing/)      
+
+**Sentinel Hub** Smart camera trap plaform from non-for profit ConservationXLabs; aimed at democratizing AI for wildlife and disease monitoring. [Sentinel Project](https://sentinel.conservationxlabs.com/)     
+
+**Mini AI Wildlife Monitor** DIY AI edge compute based wildlife detection with Raspberry Pi AI Camera. See [Discussion post on WildLabs](https://wildlabs.net/discussion/mini-ai-wildlife-monitor) and [YouTube tutorial](https://www.youtube.com/watch?v=rA1S0aAPw5U&embeds_referring_euri=https%3A%2F%2Fwildlabs.net%2F)
+
+**Animl** Camera trap platform - see 'Lessons learned from deploying and managing wireless camera trap networks in remote environments' for edge AI specific guidelines -- [Animal Camera Guide](https://guides.animl.camera/), [YouTube video](https://youtu.be/oF-8bnVymv8), and [Article](https://bioone.org/journals/western-north-american-naturalist/volume-85/issue-2/064.085.0220/Real-Time-Island-Biosecurity-Surveillance--Evaluating-a-Wireless-Camera/10.3398/064.085.0220.short).  
 
 #### AI Models for Edge
-| Model                            | What it is                                         | Links                                                                                                                                                                                |
-| -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| BirdNET-Pi                       | A realtime acoustic bird classification system for the Raspberry Pi 5, 4B 3B+ 0W2 and more | https://www.birdweather.com/birdnetpi |
-| YOLO                             | Small, real‑time models for detection and classification | https://docs.ultralytics.com/ |
-| MobileSAM                        | Segment Anything Model optimized for edge | https://github.com/ChaoningZhang/MobileSAM |    
-| WL-YOLO                          | Designed for lightweight wildlife for real-time detection in complex forest environments    | [Paper](https://doi.org/10.3390/rs16081350) |
+**BirdNET-Pi** A realtime acoustic bird classification system for the Raspberry Pi 5, 4B 3B+ 0W2 and more https://www.birdweather.com/birdnetpi
+
+**YOLO** Small, real‑time models for detection and classification, 'You Only Look Once' https://docs.ultralytics.com/ 
+
+**MobileSAM** Segment Anything Model optimized for edge https://github.com/ChaoningZhang/MobileSAM
+
+**WL-YOLO** Designed for lightweight wildlife for real-time detection in complex forest environments. [Paper](https://doi.org/10.3390/rs16081350)
 
 
 

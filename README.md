@@ -105,7 +105,7 @@ This project prioritizes:
 #### Overviews
 ____
 
-**Edge computing in wildlife behavior and ecology** — *Trends in Ecology & Evolution* 39(2):128–130, 2024. *Yu, H., et al.* [Paper](https://pubmed.ncbi.nlm.nih.gov)
+**Edge computing in wildlife behavior and ecology** — *Trends in Ecology & Evolution* 39(2):128–130, 2024. *Yu, H., et al.* [Paper](https://doi.org/10.1016/j.tree.2023.11.014)
 
 **Characterizing and Modeling AI-Driven Animal Ecology Studies at the Edge** — 2024 IEEE/ACM Symposium on Edge Computing (SEC), Rome, Italy. *J. Kline, A. O’Quinn, T. Berger‑Wolf, C. Stewart*. [Paper](https://ieeexplore.ieee.org/document/10818207/)
 
